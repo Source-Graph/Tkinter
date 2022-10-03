@@ -1,0 +1,6 @@
+---
+- name: install Tkinter
+  ansible.builtin.apt:
+    pkg:
+    - python3-tk
+  become: true
